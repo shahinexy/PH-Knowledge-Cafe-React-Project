@@ -15,7 +15,7 @@ console.log(titles);
       <Header></Header>
       <div className="md:flex my-5 gap-5 ">
         <Blogs handleBookmark={handleBookmark}></Blogs>
-        <Bookmark></Bookmark>
+        <Bookmark title={titles}></Bookmark>
       </div>
     </div>
   );

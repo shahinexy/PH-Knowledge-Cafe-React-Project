@@ -2,7 +2,6 @@ import PropTypes from "prop-types";
 import { MdOutlineBookmarkAdd } from "react-icons/md";
 
 const Blog = ({ blog, handleBookmark }) => {
-  console.log(blog);
   const {
     cover,
     author,
