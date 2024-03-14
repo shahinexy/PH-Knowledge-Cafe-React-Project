@@ -1,12 +1,16 @@
-import './App.css'
-
+import Header from "./component/Header/Header";
+import Blogs from "./component/Blogs/Blogs";
+import Bookmark from "./component/Bookmark/Bookmark";
 function App() {
-
   return (
     <>
-      <h1 className='text-2xl text-purple-600'>Vite + React</h1>
+      <Header></Header>
+      <div className="container mx-auto md:flex ">
+        <Blogs></Blogs>
+        <Bookmark></Bookmark>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
