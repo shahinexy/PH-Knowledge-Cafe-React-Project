@@ -14,6 +14,7 @@ function App() {
   }
 
   const [minits, setMinit] = useState(0)
+  
   const handleMinit = minit => {
     const totalMinit = minits + minit;
     setMinit(totalMinit)
